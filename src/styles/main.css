@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  .active-toggle-menu > div {
+  #navigation.active {
+    @apply w-60px
+  }
+  #main.active {
+    @apply w-[calc(100%-60px)] left-[60px]
+  }
+  /* .active-toggle-menu > div {
     @apply text-yellow-me;
   }
   .success {
@@ -14,7 +20,8 @@
   }
   .error {
     @apply bg-red-600;
-  }
+  } */
+  /* scroll */
   html ::selection {
     @apply text-yellow-me;
   }

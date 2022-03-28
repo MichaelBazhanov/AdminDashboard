@@ -21,6 +21,7 @@ import './styles/index.pcss'
 window.onload = function () {
   let menu = document.querySelector('#toggle-menu')
   let navigation = document.querySelector('#navigation')
+  let main = document.querySelector('#main')
   menu.addEventListener('click', (e) => {
     // console.log(e.eventPhase + 'menu')
     // if (e.eventPhase === 2) {
@@ -29,6 +30,7 @@ window.onload = function () {
     // }
 		menu.classList.toggle('active')
 		navigation.classList.toggle('active')
+		main.classList.toggle('active')
   })
 
   //   let svg = document.querySelector('#svg')
