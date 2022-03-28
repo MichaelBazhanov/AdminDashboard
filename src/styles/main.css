@@ -4,10 +4,10 @@
 
 @layer base {
   #navigation.active {
-    @apply w-60px
+    @apply w-15
   }
   #main.active {
-    @apply w-[calc(100%-60px)] left-[60px]
+    @apply w-[calc(100%-60px)] left-15
   }
   /* .active-toggle-menu > div {
     @apply text-yellow-me;

@@ -7,11 +7,10 @@ module.exports = {
         'roboto': ['Roboto', 'sans-serif'],
         'prompt': ['Prompt', 'sans-serif'],
       },
-      width: {
-        '60px': '3.75rem',
-      },
-      height: {
-        '60px': '3.75rem',
+      spacing: {
+        '4.5': '1.125rem', // 18px
+        '15': '3.75rem', // 60px
+        '2.5': '0.625rem', // 10px
       },
       colors: {
         'main': '#f5f5f5',
