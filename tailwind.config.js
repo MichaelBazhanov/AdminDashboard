@@ -6,6 +6,12 @@ module.exports = {
         'roboto': ['Roboto', 'sans-serif'],
         'prompt': ['Prompt', 'sans-serif'],
       },
+      width: {
+        '60px': '3.75rem',
+      },
+      height: {
+        '60px': '3.75rem',
+      },
       colors: {
         'main': '#f5f5f5',
         'yellow-me': '#fdbf5a',
