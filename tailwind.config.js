@@ -11,6 +11,7 @@ module.exports = {
         '4.5': '1.125rem', // 18px
         '15': '3.75rem', // 60px
         '2.5': '0.625rem', // 10px
+        '0.5': '0.125rem', // 2px
       },
       colors: {
         'main': '#f5f5f5',
