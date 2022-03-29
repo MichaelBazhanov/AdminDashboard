@@ -32,6 +32,7 @@ window.onload = function () {
 		navigation.classList.toggle('active')
 		main.classList.toggle('active')
   })
+  menu.click() //test
 
   //   let svg = document.querySelector('#svg')
   //   svg.addEventListener(
