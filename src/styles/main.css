@@ -37,9 +37,6 @@
     @apply bg-red-600;
   } */
   /* scroll */
-  html ::selection {
-    @apply text-purple-600;
-  }
   html ::-webkit-scrollbar {
     @apply bg-neutral-100 w-2 h-2;
   }
