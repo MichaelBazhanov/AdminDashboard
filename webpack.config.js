@@ -36,7 +36,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new FaviconsWebpackPlugin('./src/asset/images/Svelte.jpg'), // svg works too!
+    // new FaviconsWebpackPlugin('./src/asset/images/Svelte.jpg'), // svg works too!
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
     }),
