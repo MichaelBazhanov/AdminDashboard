@@ -9,6 +9,9 @@
   #main.active {
     @apply left-15 w-[calc(100%-60px)]
   }
+  #toggle-menu.active {
+    @apply text-white sm:text-inherit left-[calc(100%-60px)] sm:left-auto fixed sm:static
+  }
   .status {
     @apply py-0.5 px-1 bg-neutral-200 cursor-default text-white rounded font-medium text-sm tracking-wide
   }
