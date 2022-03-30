@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html
   lang="en"
-  class="font-poppins selection:bg-blue-300 selection:text-blue-500"
+  class="font-poppins selection:bg-blue-300 selection:text-blue-500 scroll-smooth"
 >
   <head>
     <meta charset="UTF-8" />
@@ -346,13 +346,13 @@
 
         <!-- Details -->
         <div
-          class="w-full p-5 pt-0 gap-5 grid grid-cols-[minmax(0px,_2fr)_minmax(0px,_1fr)]"
+          class="w-full p-5 pt-0 gap-5 grid grid-cols-[minmax(0px,_1fr)] md:grid-cols-[minmax(0px,_2fr)_minmax(0px,_1fr)]"
         >
           <!-- resentOrders -->
-          <div class="grid min-h-[530px] bg-white p-5 rounded-sm">
+          <div class="grid min-h-[530px] bg-white p-5 rounded-sm  overflow-y-auto">
             <!-- cardHeader -->
             <div class="flex justify-between items-start">
-              <h2 class="text-3xl font-semibold whitespace-nowrap">
+              <h2 class="text-lg sm:text-xl xl:text-3xl font-semibold whitespace-nowrap">
                 Resent Orders
               </h2>
               <a
@@ -363,7 +363,7 @@
               </a>
             </div>
 
-            <table class="text-left w-full border-collapse mt-3">
+            <table class="text-left border-collapse mt-3 w-[600px] sm:w-full">
               <thead>
                 <tr>
                   <th class="font-semibold">Name</th>
@@ -471,7 +471,7 @@
           <div class="min-h-[530px] bg-white p-5 rounded-sm">
             <!-- cardHeader -->
             <div>
-              <h2 class="text-3xl font-semibold whitespace-nowrap">
+              <h2 class="text-lg sm:text-xl xl:text-3xl font-semibold whitespace-nowrap">
                 Resent Customers
               </h2>
             </div>
