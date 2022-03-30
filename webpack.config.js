@@ -45,11 +45,11 @@ module.exports = {
       template: './src/index.html',
       minify: true,
     }),
-    new HtmlWebpackPlugin({
-      filename: 'one.html',
-      template: './src/one.html',
-      minify: true,
-    }),
+    // new HtmlWebpackPlugin({
+    //   filename: 'one.html',
+    //   template: './src/one.html',
+    //   minify: true,
+    // }),
   ],
   module: {
     rules: [
