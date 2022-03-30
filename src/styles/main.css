@@ -4,7 +4,7 @@
 
 @layer base {
   #navigation.active {
-    @apply left-0 w-15
+    @apply left-0 w-full sm:w-15
   }
   #main.active {
     @apply left-15 w-[calc(100%-60px)]
