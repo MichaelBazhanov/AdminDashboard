@@ -4,10 +4,10 @@
 
 @layer base {
   #navigation.active {
-    @apply w-15
+    @apply left-0 w-15
   }
   #main.active {
-    @apply w-[calc(100%-60px)] left-15
+    @apply left-15 w-[calc(100%-60px)]
   }
   .status {
     @apply py-0.5 px-1 bg-neutral-200 cursor-default text-white rounded font-medium text-sm tracking-wide
@@ -24,18 +24,6 @@
   .inprogress {
     @apply bg-indigo-500
   }
-  /* .active-toggle-menu > div {
-    @apply text-yellow-me;
-  }
-  .success {
-    @apply bg-green-500;
-  }
-  .warning {
-    @apply bg-yellow-me;
-  }
-  .error {
-    @apply bg-red-600;
-  } */
   /* scroll */
   html ::-webkit-scrollbar {
     @apply bg-neutral-100 w-2 h-2;
