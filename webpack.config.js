@@ -7,7 +7,11 @@ let mode = 'development'
 if (process.env.NODE_ENV === 'production') {
   mode = 'production'
 }
+// закомментировать строку ниже если нужно собрать BUILD локально >>>>>>>>>>>>>>>>>>>>>>>>>
+const publicPath = "/AdminDashboard/"; // https://github.com/MichaelBazhanov/AdminDashboard
+
 console.log(mode + ' mode')
+console.log(publicPath + ' publicPath')
 
 module.exports = {
   mode: mode,
@@ -19,6 +23,8 @@ module.exports = {
     filename: '[name].[contenthash].js',
     assetModuleFilename: 'assets/[hash][ext][query]',
     clean: true,
+    // закомментировать строку ниже если нужно собрать BUILD локально >>>>>>>>>>>>>>>>>>>>>>>>>
+    publicPath:  mode === 'production' ? publicPath : "",
   },
   devServer: {
     open: true,

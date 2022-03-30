@@ -1,4 +1,4 @@
-# Webpack template POSTCSS v.1
+# Webpack template TAILWIND v.1
 
 Basic configuration of Webpack.
 
@@ -71,6 +71,13 @@ Development mode
 ```
 npm run dev
 ```
+
+Deploy
+
+```
+sh deploy.sh
+```
+
 
 ```
 1. npm i -D babel-loader @babel/core @babel/preset-env webpack webpack-cli webpack-dev-server
